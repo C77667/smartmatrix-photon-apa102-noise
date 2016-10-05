@@ -9,7 +9,6 @@ int rotation = 2;
 char text[maxCommandLength] = "SmartMatrix Library";
 int scroll = 1;
 int scrollMode = 0;
-int scrollColor = 0;
 int scrollSpeed = 0;
 int scrollFont = 0;
 int scrollTop = 0;
@@ -216,7 +215,6 @@ void setupCloudVariables() {
   Particle.variable("text", text);
   Particle.variable("scroll", scroll);
   Particle.variable("scrollMode", scrollMode);
-  Particle.variable("scrollColor", scrollColor);
   Particle.variable("scrollSpeed", scrollSpeed);
   Particle.variable("scrollFont", scrollFont);
   Particle.variable("scrollTop", scrollTop);
